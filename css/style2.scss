@@ -1,0 +1,383 @@
+.main {
+    // BAI CHI TIẾT SP
+    .all-detail {
+        display: flex;
+        // float: left;
+        margin: 100px 0;
+        .left {
+            width: 70%;
+            float: left;
+            .all-col {
+                display: flex;
+                background-color: white;
+                height: 420px;
+                cursor: pointer;
+                img {
+                    width: 350px;
+                    height: 350px;
+                    border: 2px solid #cdcdcd;
+                    margin: 30px 60px;
+                    transition: 0px tranform(0.7s);
+                    &:hover {
+                        transform: scale(0.9);
+                        opacity: 0.7;
+                    }
+                }
+                .text-detail {
+                    margin-left: 30px;
+                    margin-top: 30px;
+                    legend {
+                        font-size: 20px;
+                        font-weight: bold;
+                    }
+                    p {
+                        font-size: 15px;
+                        margin: 20px 0;
+                    }
+                    span {
+                        margin: 20px 0;
+                        color: red;
+                        font-size: 15px;
+                        font-weight: bold;
+                    }
+                    .submit {
+                        margin-top: 100px;
+                        button {
+                            background-color: #000;
+                            color: white;
+                            border: 1px solid black;
+                            padding: 10px 20px;
+                            border-radius: 5px;
+                            &:hover {
+                                background-color: white;
+                                color: black;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        .right {
+            width: 30%;
+            float: left;
+            .top-detail {
+                display: flex;
+                background-color: white;
+                margin-right: 40px;
+                img {
+                    border: 1px solid #cdcdcd;
+                    margin: 10px 20px;
+                    border-radius: 100px;
+                }
+                p {
+                    margin: 10px 0px;
+                    font-size: 15px;
+                    font-weight: bold;
+                }
+            }
+            .info-nua {
+                height: 300px;
+                font-size: 14px;
+                margin: 0px 0;
+                margin-right: 40px;
+                background-color: white;
+                legend {
+                    font-size: 20px;
+                    font-weight: bold;
+                    margin: 20px 0px;
+                }
+                p {
+                    margin: 20px 10px;
+                }
+            }
+        }
+    }
+    .description {
+        margin: 30px 40px;
+        background-color: white;
+        width: 94%;
+        legend {
+            font-size: 20px;
+            font-weight: bold;
+            text-align: center;
+            margin: 30px 0;
+        }
+        .small-des {
+            width: 90%;
+            text-align: left;
+            margin-left: 65px;
+            p {
+                font-size: 16px;
+            }
+            img {
+                width: 400px;
+                height: 400px;
+                margin-left: 350px;
+            }
+        }
+    }
+    // BAI SP liên quan
+    .pro-relate {
+        height: 500px;
+        width: 97%;
+        .text-laptop {
+            display: flex;
+            legend {
+                font-size: 20px;
+                margin: 10px 0px;
+                text-align: center;
+                font-weight: bold;
+            }
+        }
+        .sp-laptop {
+            display: flex;
+            // display: block  ;
+            position: sticky;
+            .sp-one {
+                width: 20%;
+                color: #000;
+                float: left;
+                margin-bottom: 30px;
+                margin-left: 17px;
+                border-radius: 10px;
+                transition: tranform 0.9;
+                &:hover {
+                    transform: scale(1.1);
+                    opacity: 0.9;
+                    border: 1px solid silver;
+                }
+                img {
+                    width: 230px;
+                    height: 230px;
+                }
+                .text-sp {
+                    background-color: white;
+                    width: 230px;
+                    height: 150px;
+                    legend {
+                        margin: 0px 20px;
+                        opacity: 0.6;
+                        font-size: 20px;
+                        font-weight: bold;
+                    }
+                    p {
+                        font-size: 13px;
+                        margin: 15px 20px;
+                    }
+                    span {
+                        color: blue;
+                        margin: 0px 20px;
+                        font-weight: bold;
+                        padding-bottom: 20px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+.forms {
+    margin: 30px auto;
+    background-color: white;
+    width: 700px;
+    height: 500px;
+    form {
+        text-align: center;
+        legend {
+            font-size: 23px;
+            font-weight: bold;
+            margin: 20px 0px;
+        }
+        .form-body {
+            text-align: left;
+            margin-left: 155px;
+            label {
+                margin: 10px 0px;
+            }
+            input {
+                width: 400px;
+                padding: 15px 10px;
+                height: 50px;
+            }
+            button {
+                margin-top: 50px;
+                padding: 8px 20px;
+                background-color: black;
+                color: wheat;
+                border-radius: 5px;
+                &:hover {
+                    background-color: white;
+                    color: black;
+                }
+            }
+        }
+        .bottom-form {
+            margin-top: 40px;
+            span {
+                margin: 0px 80px;
+                font-size: 14px;
+                color: blue;
+                a {
+                    text-decoration: none;
+                }
+            }
+        }
+    }
+}
+.register {
+    margin: 30px auto;
+    background-color: white;
+    width: 700px;
+    height: 500px;
+    form {
+        text-align: center;
+        legend {
+            font-size: 23px;
+            font-weight: bold;
+            margin: 20px 0px;
+        }
+        .bodyform {
+            // margin-left: 155px;
+            text-align: left;
+            label {
+                margin: 10px 150px;
+                // float: left;
+            }
+            input {
+                width: 400px;
+                padding: 15px 10px;
+                height: 50px;
+                margin: 0px 150px;
+            }
+            .bottomform {
+                button {
+                    margin-top: 50px;
+                    margin-left: 150px;
+                    padding: 8px 20px;
+                    background-color: black;
+                    color: wheat;
+                    border-radius: 5px;
+                    &:hover {
+                        background-color: white;
+                        color: black;
+                    }
+                }
+                a {
+                    text-decoration: none;
+                    border-radius: 5px;
+                    padding: 11px 20px;
+                    color: wheat;
+                    background-color: red;
+                    margin-left: 200px;
+                }
+            }
+        }
+    }
+}
+
+.category {
+    h1 {
+        margin: 0px 116px;
+        font-weight: bold;
+    }
+    .category-noo {
+        display: flex;
+        margin: 40px 120px;
+        .small-cate {
+            a {
+                color: #000;
+                text-decoration: none;
+                margin: 0px 20px;
+                width: 17%;
+                float: left;
+                img {
+                    margin: 30px 0px;
+                    width: 120px;
+                    height: 120px;
+                    border-radius: 60px;
+                }
+                legend {
+                    color: #000;
+                    font-size: 18px;
+                    font-weight: bold;
+                    width: 150px;
+                }
+            }
+        }
+    }
+}
+
+//content
+.row {
+    .col-lg-6 {
+        .section-header {
+            h1 {
+                margin-top: 80px;
+            }
+        }
+    }
+}
+.tab-content {
+    .row {
+        width: 25%;
+        float: left;
+        margin: 0;
+        .col-xl {
+            .product-item {
+                margin: 0;
+            }
+        }
+    }
+    .col-12 {
+        clear: both;
+    }
+}
+
+.row-category {
+    display: flex;
+    font-size: 13px;
+    button {
+        padding: 5px 10px;
+        background-color: orange;
+        color: white;
+        margin: 0px 20px;
+        border: 1px solid orange;
+    }
+    .small-cate {
+        .form {
+            float: left;
+            margin-top: 6px;
+            a {
+                padding: 5px 15px;
+                margin: 0 8px;
+                border-radius: 5px;
+                border: 1px solid black;
+                color: black;
+                background-color: white;
+                &:active {
+                    opacity: 0.6;
+                    background-color: black;
+                    color: white;
+                }
+            }
+        }
+    }
+    .search {
+        float: right;
+        form {
+            input {
+                margin: 0px 3px;
+                padding: 5px 10px;
+                border-radius: 5px;
+                color: white;
+                border: 1px solid red;
+                background-color: red;
+            }
+            .mar-search {
+                margin-left: 70px;
+                border: 1px solid black;
+                background-color: white;
+            }
+        }
+    }
+}
